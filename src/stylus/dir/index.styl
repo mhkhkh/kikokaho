@@ -1,0 +1,312 @@
+BREAKPOINT = 736 //sp max = iPhone 6 landscape
+mn = (100vw / 750)
+
+@import '../modules/base'
+
+// @media screen and (max-width: (BREAKPOINT)px)
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+
+* {
+  font-family "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "MS Pゴシック", "MS PGothic", sans-serif
+}
+
+
+
+
+
+/*ヘッダー*/
+
+.header
+  float: left;
+
+
+.glonav
+  float: right;
+
+
+header:after
+  content:'';
+  clear: both;
+  display: block;
+
+
+.header__text
+    font-size: 12px;
+    margin-top: 35px;
+    margin-left: 35px;
+    font-family: 'Open Sans', sans-serif;
+
+
+.glonav__list
+    list-style: none;
+    font-size: 12px;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    position relative
+
+
+.glonav__ul:after
+    content: '';
+    clear: both;
+    display: block;
+
+.glonav__ul
+    padding-right: 40px;
+    padding-top: 35px;
+
+
+.glonav:after
+    content:'';
+    clear: both;
+    display: block;
+
+.glonav__a
+    text-decoration: none;
+    padding-left: 30px;
+
+.glonav__a:before
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 2.5px 0 2.5px 4.3px;
+    border-color: transparent transparent transparent #000000;
+
+
+/*メインビジュアル*/
+.mainvisual__image__1
+    padding-left: 35px;
+    padding-top: 30px;
+
+.mainvisual__image
+  position: relative;
+
+
+
+.mainvisual__image__sub__1
+  width: 485px;
+  height: 319px;
+  position: absolute;
+  left: 55px;
+  top: 15px;
+
+
+
+.mainvisual__image__sub__2
+  position: absolute;
+  top: 97px;
+  left: 480px;
+
+.mainvisual__image__sub__3
+  position: absolute;
+  top: 475px;
+
+.mainvisual__logo
+  display inline-block
+
+.mainvisual__logo__img
+  padding-top 60px
+  padding-left 57px
+  width 56px
+  height 35
+
+.mainvisual__text
+  float right
+  margin-right 200px
+  margin-top 45px
+
+.mainvisual
+  content ''
+  clear both
+  display block
+
+.mainvisual__text__p
+  font-size 14px
+  padding-top 15px
+  letter-spacing 0.1em
+  text-align center
+
+/*section1*/
+.product1
+  padding-top 151px
+  padding-left 84px
+  padding-right 67px
+  display inline-block
+  float left
+
+.description1
+  float left
+  padding-top 100px
+
+.section__1:after
+  content ''
+  clear both
+  display block
+
+/*product1*/
+
+.product1__image
+  width 263px
+  height 372px
+
+.info__box__price
+  float left
+
+.info1
+  padding-top 30px
+
+.info__box__price__1
+.info__box__price__2
+  padding-top 5px
+  font-family "Helvetica Neue"
+
+.info__box
+  width 263px
+  font-size 11px
+  padding-top 10px
+
+.info__box__buy
+  float right
+  text-decoration underline
+  padding-top 25px
+  font-weight bold
+
+.info__box:after
+  content ''
+  clear both
+  display block
+
+
+/*description1*/
+.description1__image
+  width 781px
+  height 586px
+
+h1
+  font-size 30px
+  font-family "TTKnickerbockers Grotesk"
+  letter-spacing -2px
+
+.description1__text__p
+  text-align left
+  font-size 14px
+  line-height 25px
+  padding-top 20px
+
+.description1__text
+  width 399px
+  float right
+  padding-top 57px
+
+/*section2*/
+.section__2
+  margin-top 116px
+
+/*description2*/
+.description2
+  display inline-block
+  float left
+
+.description2__image
+  width 491px
+  height 748px
+  margin-top 23px
+  margin-left 139px
+
+.description2__text
+  margin-top 50px
+
+.description2__text__h1
+ margin-left 190px
+ margin-bottom 27px
+
+.description2__text__p
+  font-size 14px
+  margin-left 190px
+  line-height 25px
+
+
+
+/*product2*/
+.product2
+  float left
+
+.section__2:after
+  content ''
+  clear both
+  display block
+
+.product2__image
+  width 438px
+  height 621px
+
+.info2
+  padding-left 60px
+  padding-top 30px
+
+
+/*section3*/
+/*description3*/
+.description3
+  margin-top 185px
+  position relative
+
+.description3__sub
+  width 173px
+  height 111px
+  position absolute
+  top 30px
+  left 80px
+
+.description3__image
+  width 1189px
+  height 585px
+  padding-left 113px
+
+.description3__text
+  color white
+  position absolute
+  left 175px
+  top 350px
+
+.description3__text__h1
+  padding-bottom 30px
+  line-height 10px
+
+.description3__text__p
+  line-height 30px
+  font-size 14px
+
+
+.productimage
+  width 479px
+  height 627px
+  padding-left 191px
+
+
+/*product3*/
+.product3__image
+  width 304px
+  height 455px
+
+.info3
+  padding-left 10px
+  padding-top 30px
+
+.section__3
+  position relative
+
+.product3
+  width 304px
+  position absolute
+  top 500px
+  left 772px
